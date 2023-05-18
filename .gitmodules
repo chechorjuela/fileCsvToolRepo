@@ -1,0 +1,6 @@
+[submodule "backfilecsv"]
+	path = backfilecsv
+	url = git@github.com:chechorjuela/backfilecsv.git
+[submodule "frontfiletool"]
+	path = frontfiletool
+	url = git@github.com:chechorjuela/frontfiletool.git
