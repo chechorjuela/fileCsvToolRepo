@@ -9,7 +9,7 @@ unificar la prueba técnica se crearon los submódulos.
 Dentro de la carpeta principal, abrir el terminal y ejecutar el siguiente comando para instalar todos los submódulos 
 proporcionados.
 
-> git submodule update --remote --recursive
+> git submodule update --init --recursive
 
 ### Instalación Nodejs
 
@@ -17,6 +17,8 @@ Una vez que tenga instaladas las dos carpetas, podrá ingresar a la carpeta <b>b
 instalar los módulos necesarios.
 
 > cd backfilecsv
+> 
+> git checkout master
 > 
 > git pull
 > 
@@ -40,6 +42,8 @@ al servidor.
 Dentro de la carpeta raíz del repositorio principal, diríjase a la carpeta <b>frontfiletool</b>.
 
 > cd frontfiletool
+> 
+> git checkout master
 > 
 > git pull
 > 
